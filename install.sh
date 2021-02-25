@@ -36,7 +36,7 @@ if [[ -z "${HOMEBREW_ON_LINUX-}" ]]; then
     HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
   fi
   HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew"
-  HOMEBREW_CORE_GIT_REMOTE="https://github.com/Homebrew/homebrew-core"
+  HOMEBREW_CORE_GIT_REMOTE="https://gitee.com/brew-cn/homebrew-core"
 
   STAT="stat -f"
   CHOWN="/usr/sbin/chown"
@@ -58,7 +58,7 @@ else
   GROUP="$(id -gn)"
   TOUCH="/bin/touch"
 fi
-HOMEBREW_BREW_GIT_REMOTE="https://github.com/Homebrew/brew"
+HOMEBREW_BREW_GIT_REMOTE="https://gitee.com/brew-cn/brew"
 
 # TODO: bump version when new macOS is released or announced
 MACOS_NEWEST_UNSUPPORTED="12.0"

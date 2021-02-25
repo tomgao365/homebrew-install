@@ -3,7 +3,7 @@
 ## Install Homebrew (on macOS or Linux)
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/tomgao365/homebrew-install/master/install.sh)"
 ```
 
 More installation information and options: https://docs.brew.sh/Installation.
